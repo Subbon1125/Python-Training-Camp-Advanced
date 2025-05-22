@@ -38,5 +38,6 @@ def cross_entropy_loss(y_true, y_pred):
     loss = -np.sum(y_true * np.log(y_pred))
     #    在 NumPy 中是 -np.sum(y_true * np.log(y_pred))。
     # 5. 计算所有样本的平均损失：L / N。
+
     return loss / N
     pass 
